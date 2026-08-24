@@ -75,5 +75,5 @@ services:
       MONGODB_URI: mongodb://mongo:27017/magic-stream-movies
     command: ["node", "/seed-data/seed.js"]
 
-  volumes:
-    movies:
+volumes:
+  movies:
